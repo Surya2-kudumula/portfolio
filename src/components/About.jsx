@@ -5,7 +5,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import profileImage from "../assets/avatar.svg";
+import profileImage from "../assets/avatar.png";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -21,7 +21,7 @@ const ServiceCard = ({ index, title, icon }) => (
         }}
         className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
       >
-        <img src={icon} alt={title} className='w-16 h-16 object-contain' />
+        <img src={icon} alt={title} className='w-18 h-18 object-contain' />
         <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
       </div>
     </motion.div>
@@ -39,7 +39,7 @@ const About = () => {
             <p className={styles.sectionSubText}>Introduction</p>
             <h2 className={styles.sectionHeadText}>Overview.</h2>
           </motion.div>
-          
+
           <motion.p
             variants={fadeIn("left", "spring", 0.1, 1)}
             className='mt-4 text-secondary text-[17px] max-w-2xl leading-[30px]'
@@ -52,7 +52,7 @@ const About = () => {
         </div>
 
         {/* Right Profile Image */}
-        <motion.div 
+        <motion.div
           variants={fadeIn("right", "spring", 0.2, 1)}
           className="flex-1 flex justify-center md:justify-end"
         >
