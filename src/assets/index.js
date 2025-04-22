@@ -33,8 +33,12 @@ import tesla from "./company/narayana.png";
 import carrent from "./medicare.jpg";
 import jobit from "./excel.png";
 import tripguide from "./education.png";
+import leetcode from "./leetcode.png"
+import hackerrank from "./hackerrank.png"
 
 export {
+  leetcode,
+  hackerrank,
   cpp,
   dsa,
   cppcipher,

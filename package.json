@@ -22,6 +22,7 @@
     "react-dom": "^18.0.0",
     "react-github-calendar": "^3.2.2",
     "react-icons": "^4.8.0",
+    "react-parallax-tilt": "^1.7.292",
     "react-pdf": "^5.7.1",
     "react-router-dom": "^6.8.1",
     "react-scripts": "^5.0.1",

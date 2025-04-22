@@ -1,4 +1,6 @@
 import { About, Contact, Experience, Hero, StarsCanvas, Tech, Training, Works } from "./components";
+import Achivements from "./components/Achivements";
+// import Achievements from "./components/Achievements";
 import Summer from "./components/summer";
 
 
@@ -7,7 +9,7 @@ const Layout = () => {
     return (
         <>
             <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
-            <Hero />
+                <Hero />
             </div>
             <About />
             <Tech />
@@ -15,6 +17,7 @@ const Layout = () => {
             <Works />
             <Experience />
             <Training />
+            <Achivements />
             <div className='relative z-0'>
                 <Contact />
                 <StarsCanvas />
